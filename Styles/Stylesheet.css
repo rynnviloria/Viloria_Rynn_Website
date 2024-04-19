@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Manjari", sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+.flex-container {
+    display: flex;
+    max-width: 1080px;
+}
+.col-4 {
+    padding: 0 6px;
+    flex-basis: 33.333%;
+  }
+.col-6 {
+    padding: 0 6px;
+    flex-basis: 100%;
+}
+.max-width {
+    max-width: 1032px;
+}
+.text-center {
+    justify-content: center;
+    align-items: center;
+}
+.text-align-center {
+    text-align: center;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.footer {
+    padding: 10px 22px;
+    background-color: #E7DCBC;
+    width: 600;
+    height: 233;
+}
+.header {
+    padding: 10px 22px;
+    background-color: #E7DCBC;
+    width: 600;
+    height: 233;
+}
+.mb-3 {
+    margin-bottom: 12px;
+  }
+.h-menu {
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+.h-menu:hover {
+    cursor: pointer;
+}
+.material-symbols-outlined {
+    font-size: 35px !important;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav a {
+    padding: 0 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: thin;
+    font-size: 22px;
+}
+.nav img {
+    min-width: 75px;
+}
+@media (max-width: 500px) {
+    .nav-links {
+        display: none;
+    }
+    .h-menu {
+        display: inline-block;
+    }
+    .nav {
+        flex-basis: 100%;
+        justify-content: space-between;
+    }
+}
+.box {
+    padding: 20px;
+    height: 100%;
+  }
+.box-extra {
+    padding: 40px;
+    height: 100%;
+}
+.quote {
+    padding: 10px 22px;
+    background-color: #F1D38B;
+    color: #9D9567;
+    width: auto;
+    height: auto;
+}
+h2 {
+    font-size: 35px;
+    color: #9D9567;
+}
+h1 {
+    color: #9D9567;
+    padding: 120px 100px;
+}
+h3 {
+    padding: 20px 40px;
+    font-size: 20px;
+    color: #9D9567;
+}
+h4 {
+    color: #9D9567;
+    padding: 20px 40px;
+    font-size: 28px;
+}
+.quote2 {
+    padding: 0px 22px;
+    background-color: #8090A9;
+    color: white;
+    width: auto;
+    height: auto;
+    font-size: 28px;
+}
+.btn {
+    color: white;
+    text-decoration: none;
+    background-color: #BE504F;
+    padding: 20px 24px;
+    display: inline-block;
+}
+.padding-extra {
+    padding: 0px 50px;
+}
+.logo-size {
+    width: 10px;
+    height: 10px;
+}

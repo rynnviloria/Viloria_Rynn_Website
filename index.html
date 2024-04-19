@@ -1,11 +1,174 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasama Website</title>
+    <link rel="stylesheet" href="Styles/Stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.google.com/specimen/Manjari" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script defer src="js/index.js"></script>
+</head>
+<body>
+    <body>
+        <!-- header -->
+        <header class="header">
+            <nav class="nav center-content">
+                <a href="https://www.kasamachicago.com/menus" class="nav-links">MENU</a>
+                <a href="https://www.kasamachicago.com/reservations-dinner" class="nav-links">RESERVATIONS</a>
+                <a href="https://www.kasamachicago.com/">
+                    <img src="images/kasamalogo.png" width="200" height="200">
+                </a>
+                <a href="https://www.kasamachicago.com/" class="nav-links">ABOUT</a>
+                <a href="https://www.kasamachicago.com/general" class="nav-links">CONTACT</a>
+                <button class="h-menu">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </nav>
+        </header>
+
+        <!-- subheader -->
+        <div class="center-content text-align-center">
+            <img src="Images/foodspread1.png" width="1920" alt="food spread">
+        </div>
+
+        <!-- featured eats -->
+        <div class="center-content text-align-center">
+            <div class="max-width flex-wrap center-content box-extra">
+                <div class="col-6">
+                    <h2>FEATURED EATS:</h2>
+                </div>
+                <div class="flex-container col-4 center-content start-div card">
+                    <div class="box card-text">
+                        <img src="Images/ubehuckleberry.png" width="200" alt="ube huckleberry">
+                        <p>UBE HUCKLEBERRY BASQUE CAKE</p>
+                    </div>
+                </div>
+                <div class="flex-container col-4 center-content start-div card">
+                    <div class="box card-text">
+                        <img src="Images/danish.png" width="200" alt="danish">
+                        <p>FOIE GRAS DANISH</p>
+                    </div>
+                </div>
+                <div class="flex-container col-4 center-content start-div card">
+                    <div class="box card-text">
+                        <img src="Images/garlicrice.png" width="200" alt="garlic rice">
+                        <p>GARLIC RICE COMBO</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+         
+         <!-- more of menu button -->
+        <div class="center-content mb-3">
+            <div class="flex-container max-width flex-wrap">
+                <div class="col-6 text-align-center">
+                    <a class="btn" href="https://www.kasamachicago.com/menus">MORE OF MENU</a>
+                </div>
+            </div>
+         </div>
+
+        <!-- customer quotes -->
+        <div class="center-content text-align-center">
+            <div class="max-width flex-wrap center-content">
+                <div class="col-6">
+                    <h2>FROM OUR CUSTOMERS:</h2>
+            </div>
+            <div class="quote">
+                <div class="flex-container col-4 center-content">
+                    <div class="box">
+                        <h3>“THE BEST, MOST AUTHENTIC FILIPINO FOOD I'VE EVER HAD"</h3>
+                    </div>
+                </div>
+                <div class="flex-container col-4 center-content">
+                    <div class="box">
+                        <h3>“MY MOM WOULD BE SO EXCITED TO TRY THIS"</h3>
+                    </div>
+                </div>
+                <div class="flex-container col-4 center-content">
+                    <div class="box">
+                        <h3>“SUCH AN AMAZING TAKE ON OUR TYPICAL FILIPINO FAVORITES"</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+         </div>
+
+        <!-- about owners -->
+         <div class="center-content text-align-center box-extra image-anim">
+            <div id="text" class="col-6">
+                <h1>HUSBAND AND WIFE, CHEFS TIM FLORES AND GENIE KWON HAVE CREATED KASAMA AS A PLACE FOR PEOPLE OF ALL BACKGROUNDS TO GATHER AND ENJOY THEIR TIME AT</h2>
+            </div>
+            <div id="image" class="col-6">
+                <img src="Images/owners.png" width="700" alt="owners">
+            </div>
+        </div>
+
+        <!-- kasama translation -->
+        <div class="center-content text-align-center">
+            <img src="Images/foodspread2.png" width="1920" alt="food spread 2">
+        </div>
+        <div class="center-content text-align-center">
+            <h4>KASAMA TRANSLATES TO "TOGETHER" IN TAGALOG</h4>
+        </div>
+
+        <!-- online ordering now avail -->
+        <div class="quote2 center-content text-align-center">
+            <div class="flex-container">
+                <div class="box">
+                    <p>ONLINE ORDERING NOW AVAILABLE!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- order now text & button -->
+        <div class="center-content text-align-center">
+            <h4>IN A RUSH OR JUST WANTING TO ENJOY A DELICIOUS MEAL IN THE COMFORT OF YOUR HOME? ORDER ONLINE AND HAVE IT READY FOR PICK UP IN NO TIME</h4>
+        </div>
+        <div class="center-content">
+            <div class="max-width flex-wrap">
+                <div class="col-6 text-align-center box-extra">
+                    <a class="btn" href="https://www.kasamachicago.com/menus">ORDER NOW</a>
+                </div>
+            </div>
+         </div>
+    
+        <!-- footer nav -->
+        <header class="footer">
+            <nav class="nav center-content">
+                <div class="padding-extra">
+                    <p><a href="https://www.kasamachicago.com/general" class="nav-links">CONTACT</a></p>
+                    <p><a href="https://www.kasamachicago.com/reservations-dinner" class="nav-links">ORDER NOW</a></p>
+                    <p><a href="https://www.google.com/maps/dir/33.5077206,-112.1310986/kasama+location/@35.7261884,-121.1856151,4z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880fd3cd1ee1c171:0x14fb7b48590257c5!2m2!1d-87.6756612!2d41.899667?entry=ttu" class="nav-links">LOCATION</a></p>
+                    <p><a href="https://www.kasamachicago.com/" class="nav-links">ABOUT</a></p>
+                </div>
+                <div class="padding-extra">
+                    <a href="https://www.kasamachicago.com/">
+                        <img src="images/kasamalogo.png" width="400" height="200">
+                    </a>
+                </div>
+
+        <!-- footer socials -->
+                <div class="padding-extra">
+                    <div>
+                        <a href="https://www.instagram.com/kasamachicago/" class="nav-links">
+                        <img src="Images/instagramlogo.png" width="15" height="15"></a>
+                    </div>
+                    <div>
+                    <a href="https://www.facebook.com/kasamachicago/" class="nav-links">
+                        <img src="Images/facebooklogo.png" width="15" height="15"></a>
+                    </div>
+                    <div>
+                    <a href="https://twitter.com/eaterchicago/status/1427333158010298374" class="nav-links">
+                        <img src="Images/twitterlogo.png" width="15" height="15"></a>
+                    </div>
+                </div>
+            </nav>
+        </footer>
+    </body>
+</body>
 </html>
