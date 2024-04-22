@@ -19,7 +19,6 @@ gsap.from('#image',{
     ease: "power4.out",
     scrollTrigger: {
         trigger: '.image-anim',
-        markers: true,
         scrub: true,
     }
 });
@@ -30,7 +29,6 @@ gsap.from('#text',{
     ease: "power4.out",
     scrollTrigger: {
         trigger: '.image-anim',
-        markers: true,
         scrub: true,
     }
 });
